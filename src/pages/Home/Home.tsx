@@ -15,7 +15,7 @@ import Button from '../../components/Button';
 
 
 
-const Login = () => {
+const Home = () => {
   // manage state
   const { addToast } = useToasts();
   const [error, setError] = useState('');
@@ -97,4 +97,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Home;
