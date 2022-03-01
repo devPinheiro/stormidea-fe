@@ -1,0 +1,56 @@
+
+$palette: (
+primary: #FFFFFF,
+secondary: #7C7C7C,
+tertiary:  #565656,
+danger: #FF5359,
+blue: #2956E3,
+purple: rgb(234, 61, 250),
+cyan: cyan,
+yellow: yellow,
+success: #72D11F,
+red: #F02F23,
+success-dark: #10A36D,
+);
+
+$text-colors: (
+headline: #333E44,
+white: #FFFFFF,
+regular: #3D3C3A,
+bodyText: #2A2A2A
+);
+
+$input-background: #3D3C3A;
+$white: #FFFFFF;
+
+
+$grey: (
+100: #FFF,
+150: #F2F2F2,
+200: #F4F8F9,
+300: #D4D4D4,
+400: #E7E7E7,
+450: #EFF4F7,
+500: #999,
+);
+
+
+$background: #151515;
+
+$desktop: 1440px;
+$desktop-lg: 2000px;
+$laptop: 1280px;
+$tablet: 768px;
+$mobile: 600px;
+
+// media breakpoint max
+$desktop-max: 'only screen and (max-width : #{$desktop})';
+$laptop-max: 'only screen and (max-width : #{$laptop})';
+$tablet-max: 'only screen and (max-width : #{$tablet})';
+$mobile-max: 'only screen and (max-width : #{$mobile})';
+// media breakpoint min
+$desktop-min: 'only screen and (min-width : #{$desktop})';
+$laptop-min: 'only screen and (min-width : #{$laptop})';
+$tablet-min: 'only screen and (min-width : #{$tablet})';
+$mobile-min: 'only screen and (min-width : #{$mobile})';
+

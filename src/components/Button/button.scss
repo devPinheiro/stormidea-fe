@@ -1,0 +1,72 @@
+@import '../../assets/scss/partials/variables.scss';
+// @import 'sass-rem';
+
+%generic-btn {
+  background-color: map-get($palette, red);
+  border-radius: 14px;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+  color: map-get($palette, primary);
+  outline: none;
+  border: none;
+}
+
+.button {
+  &.small {
+    @extend %generic-btn;
+  }
+
+  &.disabled {
+    width: 7.625rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: not-allowed;
+    opacity: 0.8;
+  }
+
+  &.regular {
+    @extend %generic-btn;
+    width: auto;
+    height: 28px;
+    width: 103px;
+    font-size: 14px;
+    line-height: 20px;
+    justify-content: center;
+    margin-right: 20px;
+    &.regular:hover {
+      background-color: map-get($palette, red);
+    }
+
+    
+    img {
+      margin: 0;
+    }
+
+    &--bold {
+      font-weight: 700;
+    }
+
+    &--light {
+      font-weight: 300;
+    }
+  }
+
+  &.hollow {
+    @extend %generic-btn;
+    width: auto;
+    height: 28px;
+    width: 103px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    color: map-get($palette, red);
+    background-color: map-get($palette, primary);
+    border: 1px solid map-get($palette, red);
+    justify-content: center;
+    margin-right: 20px;
+    &.hollow:hover {
+      background-color: map-get($palette, primary);
+    }
+  }
+}

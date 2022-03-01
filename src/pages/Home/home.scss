@@ -1,0 +1,17 @@
+@import '../../assets/scss/partials/variables.scss';
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 540px;
+    margin: 10px auto;
+
+    .loadmore-btn{
+        display: flex;
+        align-self: center;
+        padding: 15px 0;
+    }
+
+   
+}
